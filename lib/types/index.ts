@@ -1,8 +1,8 @@
-export interface SwapiResult {
+export interface SwapiResult<T> {
   count: number;
   next: string;
   previous: string;
-  results: StarWarsCharacter[];
+  results: Array<T>;
 }
 
 export interface StarWarsCharacter {

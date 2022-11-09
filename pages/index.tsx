@@ -2,6 +2,7 @@ import { useSearch } from "../lib/hooks/useSearch";
 
 const Home = () => {
   const [result, search] = useSearch();
+
   return (
     <div>
       <h1>Star Wars Search</h1>
