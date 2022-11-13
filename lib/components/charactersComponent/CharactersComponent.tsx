@@ -12,7 +12,9 @@ const CharactersComponent = (props: CharactersProps) => {
       {
         props.data.results.map((character) => {
           return (
-            <h3 key={character.name}>{character.name}</h3>
+            <div key={character.name} className="character">
+              <h3 >{character.name}</h3>
+            </div>
           )
         }
         )
